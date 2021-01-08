@@ -1,0 +1,36 @@
+.footer {
+    height: 21vh; 
+    width: 100%; 
+    position: absolute; 
+    background-color: #0E2A52; 
+    bottom: 0; top:28rem;
+    z-index: -1;
+
+    .li-fot {
+        display: inline;
+        font-size: 1em;
+        margin: 0 1rem;
+        color: white;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    .footer-ul {
+        margin:6rem 15rem;
+    }
+
+    .footer-li {
+        display:flex; 
+        color:white;
+    }
+
+    .footer-img {
+        width: 1.2rem; 
+        height: 1.2rem;
+    }
+
+    .footer-span {
+        margin-left: 1rem; 
+        color: white;
+    }
+}

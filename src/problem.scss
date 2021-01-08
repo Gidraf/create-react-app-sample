@@ -1,0 +1,353 @@
+.problem {
+    height: 80vh;
+    width: 100%;
+
+    .the-problem {
+        margin-left: 10rem;
+        margin-top: 8rem;
+        color: #257EF8;
+        float: left;
+        font-weight: 900;
+        font-style: bold;
+        font-size: 48px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .right-problem {
+        float: right;
+        width: 54%;
+        margin-right: 9rem;
+        margin-left: 4rem;
+        margin-top: 8rem;
+        color: #4A5871;
+        list-style: none;
+        font-size: 1rem;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .right-problem-li {
+        display: flex;
+        
+    }
+
+    .right-problem-li2 {
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    .right-img-problem {
+        height: 8rem;
+        width: 8rem;
+    }
+    
+    .right-img-solution {
+        height: 8rem;
+        width: 8rem;
+        position: absolute;
+        bottom: 6rem;
+        left: 37%;
+    }
+    
+    .right-span-problem {
+        width: 60%;
+        margin-left: 2rem;
+        margin-top:1rem;
+        font-weight: 500;
+    }
+}
+
+
+@media (max-width:320px){
+    .problem {
+        height: 100vh;
+        width: 100%;
+        overflow: scroll;
+    
+        .the-problem {
+            // margin-left: 2.5rem;
+            text-align: center;
+            margin-top: 2rem;
+            color: #257EF8;
+            font-weight: 900;
+            font-style: bold;
+            font-size: 36px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem {
+            width: 40%;
+            margin-right: 9rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            color: #4A5871;
+            list-style: none;
+            font-size: 1rem;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem-li {
+            display: block;   
+        }
+    
+        .right-problem-li2 {
+            display: block;
+            margin-top: 5rem;
+        }
+    
+        .right-img-problem {
+            height: 8rem;
+            width: 8rem;
+        }
+        
+        .right-img-solution {
+            height: 8rem;
+            width: 8rem;
+            position: absolute;
+            bottom: 6rem;
+            left: 37%;
+        }
+        
+        .right-span-problem {
+            width: 100%;
+            margin-left: 2rem;
+            margin-top:1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+@media (min-width:321px) and (max-width:400px){
+    .problem {
+        height: 100vh;
+        width: 100%;
+        overflow: scroll;
+    
+        .the-problem {
+            // margin-left: 2.5rem;
+            text-align: center;
+            margin-top: 2rem;
+            color: #257EF8;
+            font-weight: 900;
+            font-style: bold;
+            font-size: 36px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem {
+            width: 40%;
+            margin-right: 9rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            color: #4A5871;
+            list-style: none;
+            font-size: 1rem;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem-li {
+            display: block;   
+        }
+    
+        .right-problem-li2 {
+            display: block;
+            margin-top: 5rem;
+        }
+    
+        .right-img-problem {
+            height: 8rem;
+            width: 8rem;
+        }
+        
+        .right-img-solution {
+            height: 8rem;
+            width: 8rem;
+            position: absolute;
+            bottom: 6rem;
+            left: 37%;
+        }
+        
+        .right-span-problem {
+            width: 100%;
+            margin-left: 2rem;
+            margin-top:1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+@media (min-width:401px) and (max-width:500px){
+    .problem {
+        height: 100vh;
+        width: 100%;
+        overflow: scroll;
+    
+        .the-problem {
+            // margin-left: 2.5rem;
+            text-align: center;
+            margin-top: 2rem;
+            color: #257EF8;
+            font-weight: 900;
+            font-style: bold;
+            font-size: 36px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem {
+            width: 40%;
+            margin-right: 9rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            color: #4A5871;
+            list-style: none;
+            font-size: 1rem;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem-li {
+            display: block;   
+        }
+    
+        .right-problem-li2 {
+            display: block;
+            margin-top: 5rem;
+        }
+    
+        .right-img-problem {
+            height: 8rem;
+            width: 8rem;
+        }
+        
+        .right-img-solution {
+            height: 8rem;
+            width: 8rem;
+            position: absolute;
+            bottom: 6rem;
+            left: 37%;
+        }
+        
+        .right-span-problem {
+            width: 100%;
+            margin-left: 2rem;
+            margin-top:1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+@media (min-width:501px) and (max-width:600px){
+    .problem {
+        height: 100vh;
+        width: 100%;
+        overflow: scroll;
+    
+        .the-problem {
+            // margin-left: 2.5rem;
+            text-align: center;
+            margin-top: 2rem;
+            color: #257EF8;
+            font-weight: 900;
+            font-style: bold;
+            font-size: 36px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem {
+            width: 40%;
+            margin-right: 9rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            color: #4A5871;
+            list-style: none;
+            font-size: 1rem;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem-li {
+            display: block;   
+        }
+    
+        .right-problem-li2 {
+            display: block;
+            margin-top: 5rem;
+        }
+    
+        .right-img-problem {
+            height: 8rem;
+            width: 8rem;
+        }
+        
+        .right-img-solution {
+            height: 8rem;
+            width: 8rem;
+            position: absolute;
+            bottom: 6rem;
+            left: 37%;
+        }
+        
+        .right-span-problem {
+            width: 100%;
+            margin-left: 2rem;
+            margin-top:1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+@media (min-width:601px) and (max-width:700px){
+    .problem {
+        height: 100vh;
+        width: 100%;
+        overflow: scroll;
+    
+        .the-problem {
+            // margin-left: 2.5rem;
+            text-align: center;
+            margin-top: 2rem;
+            color: #257EF8;
+            font-weight: 900;
+            font-style: bold;
+            font-size: 36px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem {
+            width: 40%;
+            margin-right: 9rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            color: #4A5871;
+            list-style: none;
+            font-size: 1rem;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right-problem-li {
+            display: block;   
+        }
+    
+        .right-problem-li2 {
+            display: block;
+            margin-top: 5rem;
+        }
+    
+        .right-img-problem {
+            height: 8rem;
+            width: 8rem;
+        }
+        
+        .right-img-solution {
+            height: 8rem;
+            width: 8rem;
+            position: absolute;
+            bottom: 6rem;
+            left: 37%;
+        }
+        
+        .right-span-problem {
+            width: 100%;
+            margin-left: 2rem;
+            margin-top:1rem;
+            font-weight: 500;
+        }
+    }
+}

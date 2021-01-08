@@ -1,0 +1,26 @@
+.features-dashboard {
+    position: relative; 
+    height: 68vh; 
+    display: flex;
+
+    .dashboard {
+        height: 60vh;
+        width: 100%;
+        position: absolute;
+        background-color: #EFFFFC;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .the-features {
+            margin-left: 10rem;
+            margin-top: 8rem;
+            color: #257EF8;
+            float: left;
+            width: 15%;
+            font-weight: 500;
+            font-style: bold;
+            font-size: 40px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.bullets-features {
+    position: absolute; 
+    height: 100%; 
+    top: -3rem; 
+    width: 50%; 
+    left: 30%; 
+    display: flex; 
+    border-radius:15px;
+
+    .bullets-ul-1 {
+        height: 100%;  
+        width: 50%; 
+        background-color:#B9FDF0;
+        border-top-left-radius:10px; 
+        border-bottom-left-radius:10px;
+    }
+
+    .bullets-ul-2 {
+        height: 100%; 
+        width: 50%; 
+        background-color:#FDF9E3;
+        border-top-right-radius:10px; 
+        border-bottom-right-radius:10px;
+    }
+
+    .bullets-h2 {
+        width: 80%; 
+        color: #1B3141;
+    }
+
+    .bullets-p {
+        color: #257EF8; 
+        font-weight: 500; 
+        text-align: center;
+    }
+
+    .bullets-li {
+        list-style-image: url(./bullets.svg); 
+        margin-top: 1rem;
+    }
+}

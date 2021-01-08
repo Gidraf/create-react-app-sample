@@ -1,0 +1,219 @@
+.intro-text {
+    width: 50%;
+    height: 20vh;
+    margin-left: 8rem;
+    position: absolute;
+    top: 7rem;
+
+    .title {
+        color: white;
+        font-weight: 900;
+        width: 70%;
+        font-size: 50px;
+    }
+    
+    .description {
+        width: 60%;
+        /* size: 30px; */
+        font-size: 25px;
+        color: white;
+        font-weight: 300;
+    }
+    
+    .slogan {
+        width: 70%;
+        /* size: 30px; */
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .demo-btn {
+        margin-top: 3rem;
+        width:  31%;
+        padding: .8rem 2rem;
+        border-radius: 5px;
+        background-color: white;
+        border: 0;
+        color: #257EF8;
+        font-weight: 700;
+    }
+}
+
+@media (max-width:320px) {
+    
+    .intro-text {
+        width: 100%;
+        height: 20vh;
+        margin-left: 2rem;
+        position: absolute;
+        top: 7rem;
+    
+        .title {
+            color: white;
+            font-weight: 900;
+            width: 60%;
+            font-size: 30px;
+        }
+        
+        .description {
+            width: 60%;
+            /* size: 30px; */
+            font-size: 12px;
+            color: white;
+            font-weight: 300;
+        }
+        
+        .slogan {
+            width: 70%;
+            /* size: 30px; */
+            font-size: 13px;
+            color: white;
+            font-weight: 500;
+        }
+    
+        .demo-btn {
+            margin-top: 4rem;
+            width:  60%;
+            padding: .8rem 2rem;
+            border-radius: 5px;
+            background-color: white;
+            border: 0;
+            color: #257EF8;
+            font-weight: 700;
+        }
+    }
+}
+
+@media (min-width:321px) and (max-width:400px){
+
+    .intro-text {
+        width: 100%;
+        height: 20vh;
+        margin-left: 2rem;
+        position: absolute;
+        top: 7rem;
+    
+        .title {
+            color: white;
+            font-weight: 900;
+            width: 70%;
+            font-size: 30px;
+        }
+        
+        .description {
+            width: 60%;
+            /* size: 30px; */
+            font-size: 12px;
+            color: white;
+            font-weight: 300;
+        }
+        
+        .slogan {
+            width: 70%;
+            font-size: 13px;
+            color: white;
+            font-weight: 500;
+        }
+    
+        .demo-btn {
+            margin-top: 5rem;
+            width:  60%;
+            padding: .8rem 2rem;
+            border-radius: 5px;
+            background-color: white;
+            border: 0;
+            color: #257EF8;
+            font-weight: 700;
+        }
+    }
+}
+
+@media (min-width:401px) and (max-width:500px){
+
+    .intro-text {
+        width: 50%;
+        height: 20vh;
+        margin-left: 2rem;
+        position: absolute;
+        top: 7rem;
+    
+        .title {
+            color: white;
+            font-weight: 900;
+            width: 100%;
+            font-size: 40px;
+        }
+        
+        .description {
+            width: 100%;
+            font-size: 18px;
+            color: white;
+            font-weight: 300;
+        }
+        
+        .slogan {
+            width: 100%;
+            /* size: 30px; */
+            font-size: 25px;
+            color: white;
+            font-weight: 500;
+        }
+    
+        .demo-btn {
+            margin-top: 2rem;
+            width:  100%;
+            padding: .8rem 2rem;
+            border-radius: 5px;
+            background-color: white;
+            border: 0;
+            color: #257EF8;
+            font-weight: 700;
+        }
+    }
+}
+
+@media (min-width:501px) and (max-width:600px){
+
+    .intro-text {
+        width: 50%;
+        height: 20vh;
+        margin-left: 2rem;
+        position: absolute;
+        top: 7rem;
+    
+        .title {
+            color: white;
+            font-weight: 900;
+            width: 100%;
+            font-size: 40px;
+        }
+        
+        .description {
+            width: 100%;
+            /* size: 30px; */
+            font-size: 18px;
+            color: white;
+            font-weight: 300;
+        }
+        
+        .slogan {
+            width: 100%;
+            /* size: 30px; */
+            font-size: 25px;
+            color: white;
+            font-weight: 500;
+        }
+    
+        .demo-btn {
+            margin-top: 2rem;
+            width:  100%;
+            padding: .8rem 2rem;
+            border-radius: 5px;
+            background-color: white;
+            border: 0;
+            color: #257EF8;
+            font-weight: 700;
+        }
+    }
+}
